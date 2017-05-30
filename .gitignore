@@ -1,0 +1,7 @@
+**/.vscode
+**.iml
+/.idea
+**/target
+**/node_modules
+cms-frontend/frontend/public/
+cms-frontend/src/main/resources/static/admin/

@@ -1,0 +1,40 @@
+{
+  "name": "cms-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.8",
+    "css-loader": "^0.26.2",
+    "html-webpack-plugin": "^2.28.0",
+    "source-map-loader": "^0.1.6",
+    "style-loader": "^0.13.2",
+    "typescript": "^2.3.4",
+    "webpack": "^2.2.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "@types/classnames": "0.0.32",
+    "@types/fbemitter": "^2.0.32",
+    "@types/react": "^15.0.13",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.36",
+    "@types/react-router-dom": "^4.0.4",
+    "axios": "^0.15.3",
+    "classnames": "^2.2.5",
+    "fbemitter": "^2.1.1",
+    "immutable": "^3.8.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "postinstall": "webpack -p --progress",
+    "build": "webpack --progress",
+    "build:prod": "webpack -p --progress",
+    "serve": "webpack-dev-server --inline --progress"
+  }
+}
